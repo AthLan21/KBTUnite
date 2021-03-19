@@ -1,0 +1,126 @@
+.main{
+    display: flex;
+}
+
+.Sidebar{
+    top:80px;
+    position:sticky;
+    flex: 0.2;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+    margin-left: 10px;
+   /* border: 5px solid gray;
+    padding: 5px 5px; */
+}
+
+/* .Sidebar__avatar{
+    margin-bottom: 10px;
+}
+
+.Sidebar__top{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.Sidebar__top > img{
+    margin-bottom:-20px;
+    width: 100%;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+*/
+
+.Sidebar > h2{
+    font-size: 18px;
+}
+
+.Sidebar__bottomHeader{
+    margin-top: 10px;
+    background-color: #0d4bcf; /*#3db5f5*/
+    width: 99.5%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid gray;
+}
+
+.Sidebar__bottomHeader > h2{
+    color: white;
+}
+
+.Sidebar__bottom{
+    text-align: center;
+    padding: 10px;
+    padding-top: 10px;
+    border: 1px solid darkgray;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.groupItem{
+    
+    font-size: 13px;
+    color: black/*gray*/;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.groupItem > p{
+    margin-left: 10px;
+}
+
+.groupItem:hover {
+    background-color: rgb(112, 161, 250);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white/*black*/;
+}
+
+.Sidebar__bottom > p{
+    font-size:25px;
+    padding-bottom: 10px;
+}
+
+/*.marginLeft{
+    flex:0.01;
+}*/
+
+.CenterArea{
+    display: flex;
+    flex-direction: column;
+    flex:0.6;
+    /*border: 5px solid gray;*/
+    top: 80px;
+    padding: 10px 10px;
+    border-radius: 2rem;
+    margin: 0 30px;
+}
+
+/*.CreatePost{
+
+}*/
+
+
+.Feed{
+    margin-top: 10px;
+}
+
+/*.marginRight{
+    flex:0.01;
+}*/
+

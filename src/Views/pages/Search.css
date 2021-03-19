@@ -10,10 +10,11 @@
 }
 
 .app__body {
-  /* display: flex;
+  /* display: flex; 
   flex-direction: column;
-  justify-content: center; */
+  justify-content: center;  */
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .app__createPost {

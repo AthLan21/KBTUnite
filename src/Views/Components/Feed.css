@@ -1,0 +1,11 @@
+.feed__posts {
+  margin-top: 24px;
+  align-self: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+.feed {
+  display: flex;
+  justify-content: center;
+}
